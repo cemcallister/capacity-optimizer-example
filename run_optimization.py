@@ -18,6 +18,9 @@ from src.analysis.milp_optimization_designer import MILPOptimizationDesigner
 from src.analysis.standard_output_manager import StandardOutputManager
 from src.analysis.general_health_reporter import GeneralHealthReporter
 
+# Configure which teams to process (set to [1] for Team 1 only, [1, 2] for both)
+ACTIVE_TEAMS = [1]
+
 
 def run_rota_parser():
     """Parse rota files to generate JSON files for MILP optimization"""
@@ -355,7 +358,7 @@ def main():
         print("\n📈 OPTIMIZATION RESULTS SUMMARY:")
         print("=" * 50)
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team in validation_results:
                 results = validation_results[team]
                 daily_cov = results['daily']['coverage_percentage']
@@ -374,16 +377,16 @@ def main():
                 print(f"   Monthly Coverage:  {monthly_cov:.1f}% {monthly_icon}")
                 print(f"   Overall Status:    {results['overall_status']}")
                 print(f"   Risk Level:        {results['risk_analysis']['overall_risk']}")
-                
+
                 # Show specific gaps
                 if results['daily']['failed_days']:
                     failed_count = len(results['daily']['failed_days'])
                     total_count = results['daily']['total_days_tested']
                     print(f"   Daily gaps:        {failed_count} out of {total_count} days failed")
-                
+
                 if results['weekly']['coverage_gaps']:
                     print(f"   Weekly gaps:       {len(results['weekly']['coverage_gaps'])} qualifications missing")
-        
+
         # Success message based on choice
         if choice == '1':
             print(f"\n🔢 MILP Mathematical optimization completed!")
@@ -394,25 +397,25 @@ def main():
                 print(f"   🎯 Used PuLP mathematical solver for optimal solution")
             except ImportError:
                 print(f"   🧠 Used intelligent heuristic (PuLP not available)")
-            
+
             # Check for perfect balance
             perfect_balance = True
-            for team in [1, 2]:
+            for team in ACTIVE_TEAMS:
                 if team in validation_results:
                     if validation_results[team]['daily']['coverage_percentage'] < 95:
                         perfect_balance = False
                         break
-            
+
             if perfect_balance:
                 print(f"   ✅ Achieved mathematical optimum: fairness + coverage")
             else:
                 print(f"   ⚠️  Constraint satisfaction achieved (coverage optimized)")
         elif choice == '2':
             print(f"\n🎓 Training optimization completed!")
-            
+
             # Check for training effectiveness
             training_effectiveness = True
-            for team in [1, 2]:
+            for team in ACTIVE_TEAMS:
                 if team in validation_results:
                     if validation_results[team]['daily']['coverage_percentage'] < 95:
                         training_effectiveness = False

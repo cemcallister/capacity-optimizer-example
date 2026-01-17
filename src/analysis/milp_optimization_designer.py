@@ -27,6 +27,9 @@ try:
 except ImportError:
     PULP_AVAILABLE = False
 
+# Configure which teams to process (set to [1] for Team 1 only, [1, 2] for both)
+ACTIVE_TEAMS = [1]
+
 from .coverage_validator import CoverageValidator
 
 # Add logging and error handling
@@ -97,7 +100,7 @@ class MILPOptimizationDesigner:
                     2: {'electrical': [], 'mechanical': []}}
         
         # Load engineer data files
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             for role in ['elec', 'mech']:
                 role_name = 'electrical' if role == 'elec' else 'mechanical'
                 file_path = f'data/processed/engineers/team{team}_{role}_engineers.json'
@@ -149,7 +152,7 @@ class MILPOptimizationDesigner:
         """Analyze PPM requirements and create time window mappings"""
         requirements = {1: {}, 2: {}}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             team_rides = [rid for rid, info in self.optimizer.rides_info.items() 
                          if info.get('team_responsible') == team]
             
@@ -217,7 +220,7 @@ class MILPOptimizationDesigner:
         
         shift_analysis = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             shift_analysis[team] = {'electrical': {}, 'mechanical': {}}
             
             for role in ['electrical', 'mechanical']:
@@ -303,7 +306,7 @@ class MILPOptimizationDesigner:
         
         matrices = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             print(f"\n🏢 TEAM {team} RIDE CLUSTERING MILP:")
             
             # Get engineers and rides
@@ -552,7 +555,7 @@ class MILPOptimizationDesigner:
         """
         import json
 
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team not in matrices:
                 continue
 
@@ -796,7 +799,7 @@ class MILPOptimizationDesigner:
         
         matrices = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             print(f"\n🏢 TEAM {team} INTELLIGENT OPTIMIZATION:")
             
             elec_engineers = [eng for eng in self.engineers[team]['electrical'] if eng.get('active', True)]
@@ -1490,7 +1493,7 @@ class MILPOptimizationDesigner:
         """Generate engineer assignment counts per ride split by electrical/mechanical"""
         assignment_counts = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team not in matrices:
                 continue
                 
@@ -1594,7 +1597,7 @@ class MILPOptimizationDesigner:
         assignment_counts = self._generate_engineer_assignment_counts(matrices)
         
         # Display validation summary
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team in validation_results:
                 results = validation_results[team]
                 daily_cov = results['daily']['coverage_percentage']

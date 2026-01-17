@@ -1,45 +1,67 @@
-# Theme Park Capacity Optimizer
+# Workforce Capacity Optimizer
 
-Production workforce optimization system solving the NP-hard problem of assigning maintenance engineers to theme park rides while guaranteeing 100% coverage of Planned Preventive Maintenance (PPM) schedules across rotating shift patterns.
+Training gap analysis using MILP to guarantee maintenance coverage.
 
 ## The Problem
 
-Theme parks require daily, weekly, and monthly maintenance on every ride. Engineers work rotating shifts (9-week and 18-week cycles), have different qualifications, and can only perform maintenance when physically present. This creates a constrained assignment problem with ~10^50 possible combinations.
+Given a fixed workforce with fixed rotating shifts (union-negotiated, can't change), can we guarantee 100% maintenance coverage? If not, what's the minimum training investment to get there?
 
-**Constraints:**
-- 31 rides across 2 operational teams
-- 62 engineers with ~180 unique certifications
-- Daily PPMs must complete in 3-hour morning window
-- Type A (complex) rides require exactly 2 qualified engineers each
-- Workload must be evenly distributed
+## What This Tool Does
 
-## Solution
+- Models current workforce qualifications against maintenance requirements
+- Validates coverage across all 252 days of the 36-week rotation cycle
+- Identifies gaps - which PPMs can't be covered and when
+- Recommends exactly who to train on what, prioritised by impact
 
-**Mixed Integer Linear Programming (MILP)** with 36-week full rotation validation (LCM of shift cycles).
+## What It Doesn't Do
+
+- Doesn't schedule shifts (those are fixed inputs)
+- Doesn't assign engineers to tasks daily (that's operational)
+
+## The Output
+
+A training plan that guarantees 100% PPM coverage with minimum training investment.
+
+```
+outputs/current/specific_qualifications_needed.csv
+```
+
+Shows each engineer, their missing qualifications, and priority scores.
+
+## How It Works
+
+Mixed Integer Linear Programming optimizer using PuLP/CBC. Binary decision variables for engineer-ride assignments, hard constraints for coverage, multi-objective function:
 
 ```python
-# Objective: Fairness + Efficiency + Training Preservation
 minimize(
-    10 * (max_rides - min_rides) +    # Fairness (weighted)
+    10 * (max_rides - min_rides) +    # Fairness (weighted 10x)
     0.01 * total_assignments +         # Efficiency
     -0.5 * training_bias               # Preserve ongoing training
 )
 ```
 
+## Key Features
+
+- MILP formulation with 7,400+ constraints
+- 36-week rotation cycle validation (LCM of 9/18 week shift patterns)
+- Training gap analysis with prioritization
+- Graceful degradation if solver times out
+
 ## Quick Start
 
 ```bash
 pip install -r requirements.txt
-python3 run_optimization.py      # Select Option 1 for MILP
-python3 validate_qualifications.py
+python3 run_optimization.py
 ```
+
+Select Option 2 for training optimization.
 
 ## Tech Stack
 
-- **Python 3.8+** - Core implementation
-- **PuLP** - MILP optimization with CBC solver
-- **pandas/numpy** - Data processing
-- **Power BI** - Dashboard integration (CSV exports)
+- Python 3.8+
+- PuLP (MILP solver interface)
+- CBC (Coin-or Branch and Cut solver)
+- pandas
 
 ## Architecture
 
@@ -52,14 +74,17 @@ EngQual.csv + PPM Schedules + Shift Rotas
                 ↓
       CoverageValidator (36-week test)
                 ↓
-         Power BI CSVs
+       Training Recommendations
 ```
 
-**Key modules:**
-- `src/analysis/milp_optimization_designer.py` - Core MILP formulation
-- `src/analysis/ppm_capacity_optimizer.py` - Data loading engine
-- `src/analysis/coverage_validator.py` - 36-week rotation validation
+## Design Decisions
+
+- **Fairness weighted 10x over efficiency** - Union environment requires equal workload distribution
+- **Type A rides = exactly 2 per engineer** - Specialists need depth, not breadth
+- **36-week validation, not worst-case** - Catches edge cases where week 36 fails even if weeks 1-35 pass
+- **Training sunk cost preservation** - Optimizer biases toward completing in-progress training rather than starting fresh
+- **Rotas treated as immutable** - Union-negotiated shifts can't be changed, so optimize assignments around fixed patterns
 
 ## Results
 
-Achieves 100% coverage on all PPM types with mathematically optimal fairness distribution.
+Identifies minimum training required to achieve 100% coverage on daily, weekly, and monthly PPMs.

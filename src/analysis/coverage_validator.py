@@ -20,6 +20,9 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
+# Configure which teams to process (set to [1] for Team 1 only, [1, 2] for both)
+ACTIVE_TEAMS = [1]
+
 
 class CoverageValidator:
     """Validate qualification assignments against full operational rotation cycles"""
@@ -109,7 +112,7 @@ class CoverageValidator:
         
         test_results = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team not in qualification_matrices:
                 print(f"\n⚠️  Team {team} not found in qualification matrices")
                 continue
@@ -729,7 +732,7 @@ class CoverageValidator:
             
             f.write("## Executive Summary\n\n")
             
-            for team in [1, 2]:
+            for team in ACTIVE_TEAMS:
                 if team not in test_results:
                     continue
                     

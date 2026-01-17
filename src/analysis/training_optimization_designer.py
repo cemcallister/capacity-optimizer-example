@@ -28,6 +28,9 @@ try:
 except ImportError:
     PULP_AVAILABLE = False
 
+# Configure which teams to process (set to [1] for Team 1 only, [1, 2] for both)
+ACTIVE_TEAMS = [1]
+
 from .milp_optimization_designer import MILPOptimizationDesigner
 from .coverage_validator import CoverageValidator
 from .training_progress_analyzer import TrainingProgressAnalyzer
@@ -123,7 +126,7 @@ class TrainingOptimizationDesigner:
             # Load engineer data to get team assignments
             engineers_by_team = self._load_engineer_team_assignments()
             
-            for team in [1, 2]:
+            for team in ACTIVE_TEAMS:
                 current_matrices[team] = {}
                 team_engineers = engineers_by_team[team]
                 
@@ -180,7 +183,7 @@ class TrainingOptimizationDesigner:
         
         formatted_matrices = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team not in current_matrices:
                 continue
                 
@@ -231,7 +234,7 @@ class TrainingOptimizationDesigner:
         
         training_recommendations = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team not in current_matrices:
                 continue
                 
@@ -589,7 +592,7 @@ class TrainingOptimizationDesigner:
         
         detailed_report = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team not in training_recommendations or team not in current_matrices:
                 continue
                 
@@ -1023,7 +1026,7 @@ class TrainingOptimizationDesigner:
         # Validate coverage of projected state
         validation_results = self.coverage_validator.validate_assignment_coverage(projected_matrices)
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team in validation_results:
                 results = validation_results[team]
                 daily_cov = results['daily']['coverage_percentage']
@@ -1041,7 +1044,7 @@ class TrainingOptimizationDesigner:
         """Load engineer team assignments from processed data"""
         engineers_by_team = {1: {}, 2: {}}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             for role in ['elec', 'mech']:
                 file_path = f'data/processed/engineers/team{team}_{role}_engineers.json'
                 try:
@@ -1362,7 +1365,7 @@ class TrainingOptimizationDesigner:
         # Apply training recommendations to create projected state
         projected_matrices = {}
         
-        for team in [1, 2]:
+        for team in ACTIVE_TEAMS:
             if team not in current_matrices or team not in training_recommendations:
                 continue
                 
