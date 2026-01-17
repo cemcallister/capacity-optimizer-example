@@ -1,0 +1,23 @@
+{
+  "ride_id": "FURY",
+  "ppms": [
+    {
+      "ppm_code": "FURY.E.1D.R.03",
+      "qualification_code": "FURY.2.DE.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "FURY.M.1D.R.01",
+      "qualification_code": "FURY.2.DM.R.S",
+      "duration_hours": 1.07,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "FURY.M.1D.T.02",
+      "qualification_code": "FURY.2.DM.R.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

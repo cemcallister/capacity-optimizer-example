@@ -1,0 +1,13 @@
+{
+  "ride_id": "APEX",
+  "ride_name": "Apex Drop",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "APEX.5.S",
+      "qualification_code": "APEX.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Apex Drop"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "ride_id": "INFR",
+  "ppms": [
+    {
+      "ppm_code": "INFR.E.1D.R.02",
+      "qualification_code": "INFR.2.DE.R.S",
+      "duration_hours": 0.58,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "INFR.E.1D.T.03",
+      "qualification_code": "INFR.2.DE.T.S",
+      "duration_hours": 0.25,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "INFR.M.1D.R.05",
+      "qualification_code": "INFR.2.DM.R.S",
+      "duration_hours": 0.96,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "INFR.M.1D.T.07",
+      "qualification_code": "INFR.2.DM.T.S",
+      "duration_hours": 0.72,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "ride_id": "GLDE",
+  "ppms": [
+    {
+      "ppm_code": "GLDE.E.1M.R.06",
+      "qualification_code": "GLDE.4.ME.R.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "GLDE.M.1M.CCLS.02",
+      "qualification_code": "GLDE.4.MMS.S",
+      "duration_hours": 0.4,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "GLDE.M.1M.G.05",
+      "qualification_code": "GLDE.4.MM.G.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "GLDE.M.1M.MDS.03",
+      "qualification_code": "GLDE.4.MMS.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "GLDE.M.1M.R.04",
+      "qualification_code": "GLDE.4.MM.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "GLDE.M.1M.TSTS.01",
+      "qualification_code": "GLDE.4.MMS.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

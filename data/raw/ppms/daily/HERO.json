@@ -1,0 +1,11 @@
+{
+  "ride_id": "HERO",
+  "ppms": [
+    {
+      "ppm_code": "HERO.M.1D.ATRC.01",
+      "qualification_code": "HERO.2.DM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

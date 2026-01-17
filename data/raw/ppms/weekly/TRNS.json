@@ -1,0 +1,14 @@
+{
+  "ride_id": "TRNS",
+  "ppms": [
+    {
+      "ppm_code": "TRNS.M.1W.R.02",
+      "qualification_code": "TRNS.3.WM.R.S",
+      "duration_hours": 0.25,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

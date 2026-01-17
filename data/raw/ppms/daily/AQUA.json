@@ -1,0 +1,29 @@
+{
+  "ride_id": "AQUA",
+  "ppms": [
+    {
+      "ppm_code": "AQUA.E.1D.R.01",
+      "qualification_code": "AQUA.2.DE.R.S",
+      "duration_hours": 0.35,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "AQUA.E.1D.T.02",
+      "qualification_code": "AQUA.2.DE.R.S",
+      "duration_hours": 0.17,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "AQUA.M.1D.R.03",
+      "qualification_code": "AQUA.2.DM.R.S",
+      "duration_hours": 0.42,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "AQUA.M.1D.T.04",
+      "qualification_code": "AQUA.2.DM.R.S",
+      "duration_hours": 0.43,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

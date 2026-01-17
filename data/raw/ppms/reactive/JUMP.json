@@ -1,0 +1,13 @@
+{
+  "ride_id": "JUMP",
+  "ride_name": "Jumping Jacks",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "JUMP.5.S",
+      "qualification_code": "JUMP.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Jumping Jacks"
+    }
+  ]
+}

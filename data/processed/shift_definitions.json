@@ -1,0 +1,49 @@
+{
+  "shift_codes": {
+    "E": {
+      "label": "Early",
+      "working": true,
+      "time_weekday": ["06:00", "14:30"],
+      "time_weekend": ["06:00", "14:45"],
+      "valid_for_handover": true
+    },
+    "L": {
+      "label": "Late",
+      "working": true,
+      "time": ["14:00", "22:30"],
+      "valid_for_handover": false
+    },
+    "M": {
+      "label": "Mid",
+      "working": true,
+      "time": ["09:30", "18:45"],
+      "valid_for_handover": false,
+      "teams": ["Electrical"],
+      "description": "Mid shift - electrical teams only"
+    },
+    "O": {
+      "label": "Off",
+      "working": false,
+      "time": null,
+      "valid_for_handover": false
+    }
+  },
+  "ppm_windows": {
+    "AM_PPM": {
+      "label": "Morning PPM Window",
+      "time": ["06:00", "09:30"],
+      "duration_hours": 3.5,
+      "compatible_shifts": ["E"],
+      "valid_for": ["daily", "weekly", "monthly"],
+      "description": "3.5-hour morning window for all PPM types"
+    },
+    "PM_PPM": {
+      "label": "Evening PPM Window", 
+      "time": ["19:00", "22:30"],
+      "duration_hours": 3.5,
+      "compatible_shifts": ["L"],
+      "valid_for": ["weekly", "monthly"],
+      "description": "3.5-hour evening window for weekly/monthly PPMs only"
+    }
+  }
+}

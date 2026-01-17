@@ -1,0 +1,32 @@
+{
+  "ride_id": "RPDS",
+  "ppms": [
+    {
+      "ppm_code": "RPDS.E.1W.ESTP.01",
+      "qualification_code": "RPDS.3.WE.R.S",
+      "duration_hours": 0.15000000000000002,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "RPDS.M.1W.B.09",
+      "qualification_code": "RPDS.3.WM.B.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "RPDS.M.1W.R.08",
+      "qualification_code": "RPDS.3.WM.R.S",
+      "duration_hours": 0.25,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

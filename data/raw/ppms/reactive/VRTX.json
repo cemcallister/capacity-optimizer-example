@@ -1,0 +1,13 @@
+{
+  "ride_id": "VRTX",
+  "ride_name": "Vortex",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "VRTX.5.S",
+      "qualification_code": "VRTX.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Vortex"
+    }
+  ]
+}

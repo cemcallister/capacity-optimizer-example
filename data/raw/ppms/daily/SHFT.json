@@ -1,0 +1,29 @@
+{
+  "ride_id": "SHFT",
+  "ppms": [
+    {
+      "ppm_code": "SHFT.E.1D.R.01",
+      "qualification_code": "SHFT.2.DE.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "SHFT.E.1D.T.02",
+      "qualification_code": "SHFT.2.DE.R.S",
+      "duration_hours": 0.16,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "SHFT.M.1D.R.03",
+      "qualification_code": "SHFT.2.DM.R.S",
+      "duration_hours": 2.0,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "SHFT.M.1D.T.04",
+      "qualification_code": "SHFT.2.DM.R.S",
+      "duration_hours": 0.34,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ride_id": "WRTH",
+  "ride_name": "Wraith",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "WRTH.5.S",
+      "qualification_code": "WRTH.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Wraith"
+    }
+  ]
+}

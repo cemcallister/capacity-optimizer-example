@@ -1,0 +1,13 @@
+{
+  "ride_id": "PITR",
+  "ride_name": "Pirate Spin",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "PITR.5.S",
+      "qualification_code": "PITR.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Pirate Spin"
+    }
+  ]
+}

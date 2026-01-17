@@ -1,0 +1,95 @@
+{
+  "ride_id": "INFR",
+  "ppms": [
+    {
+      "ppm_code": "INFR.E.1W.R.01",
+      "qualification_code": "INFR.3.WE.R.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.R.05",
+      "qualification_code": "INFR.3.WM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.R.06",
+      "qualification_code": "INFR.3.WM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.R.07",
+      "qualification_code": "INFR.3.WM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.R.08",
+      "qualification_code": "INFR.3.WM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.STRC.09",
+      "qualification_code": "INFR.3.WM.STRC.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.STRC.10",
+      "qualification_code": "INFR.3.WM.STRC.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.STRC.11",
+      "qualification_code": "INFR.3.WM.STRC.S",
+      "duration_hours": 0.35000000000000003,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1W.T.04",
+      "qualification_code": "INFR.3.WM.T.S",
+      "duration_hours": 0.65,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.2W.T.01",
+      "qualification_code": "INFR.3.WM.T.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

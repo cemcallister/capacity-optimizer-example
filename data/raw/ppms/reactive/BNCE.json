@@ -1,0 +1,13 @@
+{
+  "ride_id": "BNCE",
+  "ride_name": "Bounce",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "BNCE.5.S",
+      "qualification_code": "BNCE.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Bounce"
+    }
+  ]
+}

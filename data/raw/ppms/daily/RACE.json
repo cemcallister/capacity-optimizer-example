@@ -1,0 +1,29 @@
+{
+  "ride_id": "RACE",
+  "ppms": [
+    {
+      "ppm_code": "RACE.E.1D.BUG.01",
+      "qualification_code": "RACE.2.DE.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "RACE.E.1D.R.02",
+      "qualification_code": "RACE.2.DE.S",
+      "duration_hours": 0.08,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "RACE.M.1D.BUG.03",
+      "qualification_code": "RACE.2.DM.S",
+      "duration_hours": 0.42,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "RACE.M.1D.R.04",
+      "qualification_code": "RACE.2.DM.S",
+      "duration_hours": 0.54,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

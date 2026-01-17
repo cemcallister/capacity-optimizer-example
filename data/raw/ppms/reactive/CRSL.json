@@ -1,0 +1,13 @@
+{
+  "ride_id": "CRSL",
+  "ride_name": "Carousel",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "CRSL.5.S",
+      "qualification_code": "CRSL.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Carousel"
+    }
+  ]
+}

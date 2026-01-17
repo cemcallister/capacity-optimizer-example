@@ -1,0 +1,13 @@
+{
+  "ride_id": "FURY",
+  "ride_name": "Fury",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "FURY.5.S",
+      "qualification_code": "FURY.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Fury"
+    }
+  ]
+}

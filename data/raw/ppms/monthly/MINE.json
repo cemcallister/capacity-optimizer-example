@@ -1,0 +1,23 @@
+{
+  "ride_id": "MINE",
+  "ppms": [
+    {
+      "ppm_code": "MINE.M.1M.R.01",
+      "qualification_code": "MINE.4.MM.R.S",
+      "duration_hours": 0.6000000000000001,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "MINE.M.1M.T.02",
+      "qualification_code": "MINE.4.MM.T.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

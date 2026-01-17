@@ -1,0 +1,14 @@
+{
+  "ride_id": "RUSH",
+  "ppms": [
+    {
+      "ppm_code": "RUSH.M.1M.R.01",
+      "qualification_code": "RUSH.4.MM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

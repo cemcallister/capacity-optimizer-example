@@ -1,0 +1,13 @@
+{
+  "ride_id": "SHFT",
+  "ride_name": "Shadowrift",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "SHFT.5.S",
+      "qualification_code": "SHFT.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Shadowrift"
+    }
+  ]
+}

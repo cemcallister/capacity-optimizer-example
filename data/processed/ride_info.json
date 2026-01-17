@@ -1,0 +1,190 @@
+{
+    "rides": {
+      "CRSR": {
+        "name": "Corsair",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "WRTH": {
+        "name": "Wraith",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "KART": {
+        "name": "Go Karts",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "DUEX": {
+        "name": "Duex",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "JUMP": {
+        "name": "Jumping Jacks",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "NOVA": {
+        "name": "Nova",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "CHAS": {
+        "name": "The Chase",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "CRSL": {
+        "name": "Carousel",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "RUSH": {
+        "name": "Rush",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "RACE": {
+        "name": "Raceway",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "VRGE": {
+        "name": "Vertigo",
+        "type": "B",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "SWNG": {
+        "name": "Swingship",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "DRMS": {
+        "name": "Dreamland",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "HERO": {
+        "name": "Hero HQ",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "PITR": {
+        "name": "Pirate Spin",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "TRNS": {
+        "name": "Transit",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "FURY": {
+        "name": "Fury",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "CUPS": {
+        "name": "Teacups",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "APEX": {
+        "name": "Apex Drop",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "AQUA": {
+        "name": "Aquanaut",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "BNCE": {
+        "name": "Bounce",
+        "type": "C",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "RPDS": {
+        "name": "River Rapids",
+        "type": "C",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "BLTZ": {
+        "name": "Blitz",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "MINE": {
+        "name": "Minecart",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "GLDE": {
+        "name": "Skyglide",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "TWST": {
+        "name": "Twister",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "SPIN": {
+        "name": "Spinfire",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "DEEP": {
+        "name": "Descent",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "SHFT": {
+        "name": "Shadowrift",
+        "type": "A",
+        "team_responsible": 1,
+        "handover_time": "09:30"
+      },
+      "VRTX": {
+        "name": "Vortex",
+        "type": "B",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      },
+      "INFR": {
+        "name": "Inferno",
+        "type": "A",
+        "team_responsible": 2,
+        "handover_time": "09:30"
+      }
+    }
+  }

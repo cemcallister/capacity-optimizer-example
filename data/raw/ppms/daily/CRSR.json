@@ -1,0 +1,29 @@
+{
+  "ride_id": "CRSR",
+  "ppms": [
+    {
+      "ppm_code": "CRSR.E.1D.B.02",
+      "qualification_code": "CRSR.2.DE.S",
+      "duration_hours": 0.35,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "CRSR.E.1D.R.01",
+      "qualification_code": "CRSR.2.DE.S",
+      "duration_hours": 0.35,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "CRSR.M.1D.B.03",
+      "qualification_code": "CRSR.2.DM.S",
+      "duration_hours": 0.44,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "CRSR.M.1D.R.04",
+      "qualification_code": "CRSR.2.DM.S",
+      "duration_hours": 0.53,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

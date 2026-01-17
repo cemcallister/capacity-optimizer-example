@@ -1,0 +1,14 @@
+{
+  "ride_id": "WRTH",
+  "ppms": [
+    {
+      "ppm_code": "WRTH.E.2W.C.01",
+      "qualification_code": "WRTH.3.WE.C.S",
+      "duration_hours": 0.17,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "2W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

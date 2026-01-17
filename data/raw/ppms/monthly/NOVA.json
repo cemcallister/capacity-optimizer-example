@@ -1,0 +1,113 @@
+{
+  "ride_id": "NOVA",
+  "ppms": [
+    {
+      "ppm_code": "NOVA.E.1M.R.01",
+      "qualification_code": "NOVA.4.ME.R.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.LE.04",
+      "qualification_code": "NOVA.4.MM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.R.03",
+      "qualification_code": "NOVA.4.MM.R.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ1.05",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ2.06",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ3.07",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ4.08",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ5.09",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ6.10",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ7.11",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.1M.TZ8.12",
+      "qualification_code": "NOVA.4.MM.TZ.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "NOVA.M.3M.SPRG.01",
+      "qualification_code": "NOVA.4.3MM.SPRG.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

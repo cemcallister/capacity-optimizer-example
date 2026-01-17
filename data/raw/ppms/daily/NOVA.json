@@ -1,0 +1,29 @@
+{
+  "ride_id": "NOVA",
+  "ppms": [
+    {
+      "ppm_code": "NOVA.E.1D.CRFT.02",
+      "qualification_code": "NOVA.2.DE.R.S",
+      "duration_hours": 0.25,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "NOVA.E.1D.R.01",
+      "qualification_code": "NOVA.2.DE.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "NOVA.M.1D.CRFT.03",
+      "qualification_code": "NOVA.2.DM.R.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "NOVA.M.1D.R.04",
+      "qualification_code": "NOVA.2.DM.R.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

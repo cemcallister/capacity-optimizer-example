@@ -1,0 +1,29 @@
+{
+  "ride_id": "SPIN",
+  "ppms": [
+    {
+      "ppm_code": "SPIN.E.1D.C.04",
+      "qualification_code": "SPIN.2.DE.C.S",
+      "duration_hours": 0.08,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "SPIN.E.1D.R.03",
+      "qualification_code": "SPIN.2.DE.C.S",
+      "duration_hours": 0.27,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "SPIN.M.1D.C.01",
+      "qualification_code": "SPIN.2.DM.C.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "SPIN.M.1D.R.02",
+      "qualification_code": "SPIN.2.DM.C.S",
+      "duration_hours": 2.5,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

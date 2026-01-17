@@ -1,0 +1,23 @@
+{
+  "ride_id": "RPDS",
+  "ppms": [
+    {
+      "ppm_code": "RPDS.M.1M.B.03",
+      "qualification_code": "RPDS.4.MM.B.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "RPDS.M.1M.R.02",
+      "qualification_code": "RPDS.4.MM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

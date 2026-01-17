@@ -1,0 +1,23 @@
+{
+  "ride_id": "CRSR",
+  "ppms": [
+    {
+      "ppm_code": "CRSR.M.1M.R.01",
+      "qualification_code": "CRSR.4.MM.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "CRSR.M.3M.R.01",
+      "qualification_code": "CRSR.4.MM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ride_id": "DEEP",
+  "ride_name": "Descent",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "DEEP.5.S",
+      "qualification_code": "DEEP.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Descent"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ride_id": "SPIN",
+  "ride_name": "Spinfire",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "SPIN.5.S",
+      "qualification_code": "SPIN.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Spinfire"
+    }
+  ]
+}

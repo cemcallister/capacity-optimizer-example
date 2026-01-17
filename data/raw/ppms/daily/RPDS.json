@@ -1,0 +1,23 @@
+{
+  "ride_id": "RPDS",
+  "ppms": [
+    {
+      "ppm_code": "RPDS.E.1D.R.01",
+      "qualification_code": "RPDS.2.DE.R.S",
+      "duration_hours": 0.36,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "RPDS.M.1D.B.02",
+      "qualification_code": "RPDS.2.DM.B.S",
+      "duration_hours": 0.58,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "RPDS.M.1D.R.03",
+      "qualification_code": "RPDS.2.DM.B.S",
+      "duration_hours": 0.93,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

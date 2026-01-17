@@ -1,0 +1,29 @@
+{
+  "ride_id": "APEX",
+  "ppms": [
+    {
+      "ppm_code": "APEX.E.1D.R.01",
+      "qualification_code": "APEX.2.DE.R.S",
+      "duration_hours": 0.17,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "APEX.E.1D.S.02",
+      "qualification_code": "APEX.2.DE.S.S",
+      "duration_hours": 0.08,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "APEX.M.1D.R.03",
+      "qualification_code": "APEX.2.DM.R.S",
+      "duration_hours": 1.5,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "APEX.M.1D.S.04",
+      "qualification_code": "APEX.2.DM.S.S",
+      "duration_hours": 0.17,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

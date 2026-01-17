@@ -1,0 +1,14 @@
+{
+  "ride_id": "DEEP",
+  "ppms": [
+    {
+      "ppm_code": "DEEP.M.1M.R.01",
+      "qualification_code": "DEEP.4.MM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

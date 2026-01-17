@@ -1,0 +1,13 @@
+{
+  "ride_id": "NOVA",
+  "ride_name": "Nova",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "NOVA.5.S",
+      "qualification_code": "NOVA.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Nova"
+    }
+  ]
+}

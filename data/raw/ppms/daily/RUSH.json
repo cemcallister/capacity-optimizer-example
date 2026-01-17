@@ -1,0 +1,17 @@
+{
+  "ride_id": "RUSH",
+  "ppms": [
+    {
+      "ppm_code": "RUSH.E.1D.R.01",
+      "qualification_code": "RUSH.2.DE.S",
+      "duration_hours": 0.42,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "RUSH.M.1D.R.02",
+      "qualification_code": "RUSH.2.DM.S",
+      "duration_hours": 0.47,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

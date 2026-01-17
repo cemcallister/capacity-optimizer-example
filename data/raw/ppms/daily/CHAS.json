@@ -1,0 +1,23 @@
+{
+  "ride_id": "CHAS",
+  "ppms": [
+    {
+      "ppm_code": "CHAS.E.1D.C.02",
+      "qualification_code": "CHAS.2.DE.C.S",
+      "duration_hours": 0.31,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "CHAS.E.1D.R.01",
+      "qualification_code": "CHAS.2.DE.C.S",
+      "duration_hours": 0.33,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "CHAS.M.1D.C.04",
+      "qualification_code": "CHAS.2.DM.C.S",
+      "duration_hours": 0.32,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "ride_id": "JUMP",
+  "ppms": [
+    {
+      "ppm_code": "JUMP.M.1D.R.01",
+      "qualification_code": "JUMP.2.DM.S",
+      "duration_hours": 0.34,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

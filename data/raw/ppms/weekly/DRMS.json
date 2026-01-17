@@ -1,0 +1,14 @@
+{
+  "ride_id": "DRMS",
+  "ppms": [
+    {
+      "ppm_code": "DRMS.M.1W.R.01",
+      "qualification_code": "DRMS.3.WM.S",
+      "duration_hours": 0.42,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

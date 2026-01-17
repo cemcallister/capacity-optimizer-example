@@ -1,0 +1,14 @@
+{
+  "ride_id": "VRTX",
+  "ppms": [
+    {
+      "ppm_code": "VRTX.M.1W.R.01",
+      "qualification_code": "VRTX.3.WM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

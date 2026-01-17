@@ -1,0 +1,41 @@
+{
+  "ride_id": "RUSH",
+  "ppms": [
+    {
+      "ppm_code": "RUSH.M.1W.R.02",
+      "qualification_code": "RUSH.3.WM.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Monday",
+      "time_window": "PM"
+    },
+    {
+      "ppm_code": "RUSH.M.1W.R.03",
+      "qualification_code": "RUSH.3.WM.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Tuesday",
+      "time_window": "PM"
+    },
+    {
+      "ppm_code": "RUSH.M.1W.R.04",
+      "qualification_code": "RUSH.3.WM.S",
+      "duration_hours": 0.21,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Wednesday",
+      "time_window": "PM"
+    },
+    {
+      "ppm_code": "RUSH.M.1W.R.05",
+      "qualification_code": "RUSH.3.WM.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Thursday",
+      "time_window": "PM"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "ride_id": "KART",
+  "ppms": [
+    {
+      "ppm_code": "KART.M.1D.C.02",
+      "qualification_code": "KART.2.DM.S",
+      "duration_hours": 0.41,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "KART.M.1D.R.01",
+      "qualification_code": "KART.2.DM.S",
+      "duration_hours": 0.17,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

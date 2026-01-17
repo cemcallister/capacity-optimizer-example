@@ -1,0 +1,11 @@
+{
+  "ride_id": "CRSL",
+  "ppms": [
+    {
+      "ppm_code": "CRSL.M.1D.R.01",
+      "qualification_code": "CRSL.2.DM.S",
+      "duration_hours": 0.36,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

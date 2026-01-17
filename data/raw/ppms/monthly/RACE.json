@@ -1,0 +1,23 @@
+{
+  "ride_id": "RACE",
+  "ppms": [
+    {
+      "ppm_code": "RACE.M.1M.BUG.01",
+      "qualification_code": "RACE.4.MM.BUG.S",
+      "duration_hours": 0.4,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "RACE.M.1M.R.02",
+      "qualification_code": "RACE.4.MM.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

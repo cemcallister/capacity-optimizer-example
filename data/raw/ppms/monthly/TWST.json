@@ -1,0 +1,113 @@
+{
+  "ride_id": "TWST",
+  "ppms": [
+    {
+      "ppm_code": "TWST.E.1M.R.01",
+      "qualification_code": "TWST.4.ME.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.E.1M.T.02",
+      "qualification_code": "TWST.4.ME.T.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM1.03",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.4,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM2.04",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.4,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM3.05",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM4.06",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM5.07",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM6.08",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM7.09",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.4,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.CLM8.10",
+      "qualification_code": "TWST.4.MM.CLM.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.R.12",
+      "qualification_code": "TWST.4.MM.R.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "TWST.M.1M.T.13",
+      "qualification_code": "TWST.4.MM.T.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

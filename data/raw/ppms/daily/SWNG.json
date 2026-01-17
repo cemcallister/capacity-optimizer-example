@@ -1,0 +1,17 @@
+{
+  "ride_id": "SWNG",
+  "ppms": [
+    {
+      "ppm_code": "SWNG.E.1D.R.01",
+      "qualification_code": "SWNG.2.DE.S",
+      "duration_hours": 0.17,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "SWNG.M.1D.R.02",
+      "qualification_code": "SWNG.2.DM.S",
+      "duration_hours": 0.33,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

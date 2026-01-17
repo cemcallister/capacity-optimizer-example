@@ -1,0 +1,11 @@
+{
+  "ride_id": "VRGE",
+  "ppms": [
+    {
+      "ppm_code": "VRGE.M.1D.R.01",
+      "qualification_code": "VRGE.2.DM.S",
+      "duration_hours": 0.83,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

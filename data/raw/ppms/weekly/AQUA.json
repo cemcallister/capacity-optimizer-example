@@ -1,0 +1,32 @@
+{
+  "ride_id": "AQUA",
+  "ppms": [
+    {
+      "ppm_code": "AQUA.E.1W.R.01",
+      "qualification_code": "AQUA.3.WE.R.S",
+      "duration_hours": 0.4,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "AQUA.M.1W.R.02",
+      "qualification_code": "AQUA.3.WM.R.S",
+      "duration_hours": 0.4,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "AQUA.M.1W.T.03",
+      "qualification_code": "AQUA.3.WM.T.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

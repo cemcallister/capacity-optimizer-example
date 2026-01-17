@@ -1,0 +1,105 @@
+# Capacity Optimization System Configuration
+# This file contains global settings for the optimization system
+
+# Logging Configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: INFO
+  
+  # Enable/disable logging outputs
+  file_logging: true
+  console_logging: true
+  
+  # Log file settings
+  log_directory: logs
+  max_log_files: 10  # Rotate after this many files
+  max_log_size_mb: 50  # Rotate when file exceeds this size
+
+# Error Handling Configuration
+error_handling:
+  # Continue processing on warnings (vs. strict mode)
+  continue_on_warnings: true
+  
+  # Strict validation mode (fail fast on data issues)
+  strict_validation: false
+  
+  # Retry attempts for recoverable operations
+  max_retries: 3
+  
+  # Create backups before destructive operations
+  create_backups: true
+
+# Optimization Configuration
+optimization:
+  # Default optimization algorithm: MILP or Training
+  default_algorithm: MILP
+  
+  # MILP solver settings
+  milp:
+    solver: CBC  # CBC or other PuLP-supported solvers
+    time_limit_seconds: 300  # 5 minutes
+    gap_tolerance: 0.01  # 1% optimality gap
+    threads: -1  # Use all available threads (-1 = auto)
+  
+  # Training algorithm settings
+  training:
+    max_iterations: 1000
+    convergence_threshold: 0.001
+
+# Data Validation Configuration
+validation:
+  # Minimum coverage thresholds
+  min_coverage_percentage: 80.0
+  
+  # PPM validation settings
+  validate_ppm_schedules: true
+  validate_shift_patterns: true
+  validate_qualification_mappings: true
+  
+  # Team structure validation
+  validate_team_assignments: true
+  validate_engineer_qualifications: true
+
+# Output Configuration  
+output:
+  # Output directory for results
+  output_directory: outputs/current
+  
+  # File formats to generate
+  generate_json: true
+  generate_csv: true
+  
+  # Backup settings
+  backup_existing_files: true
+  max_backup_files: 5
+
+# Database Configuration (for future Databricks integration)
+database:
+  # Connection settings (when migration happens)
+  enabled: false
+  connection_timeout_seconds: 30
+  query_timeout_seconds: 300
+
+  # Development environment
+  dev:
+    server_hostname: "your-dev-workspace.azuredatabricks.net"
+    http_path: "/sql/1.0/warehouses/your_warehouse_id"
+
+  # Production environment
+  prod:
+    server_hostname: "your-prod-workspace.azuredatabricks.net"
+    http_path: "/sql/1.0/warehouses/your_warehouse_id"
+
+# Business Rules Configuration
+business_rules:
+  # Type A ride requirements
+  min_type_a_rides_per_engineer: 2
+  
+  # PPM scheduling constraints
+  daily_ppm_window_hours: 3  # AM window for daily PPMs
+  weekly_ppm_days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  monthly_ppm_days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  
+  # Coverage validation
+  rotation_cycle_weeks: 36
+  validate_full_cycle: true

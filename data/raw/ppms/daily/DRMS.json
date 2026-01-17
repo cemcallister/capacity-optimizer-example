@@ -1,0 +1,17 @@
+{
+  "ride_id": "DRMS",
+  "ppms": [
+    {
+      "ppm_code": "DRMS.M.1D.B.01",
+      "qualification_code": "DRMS.2.DM.S",
+      "duration_hours": 0.35,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "DRMS.M.1D.R.02",
+      "qualification_code": "DRMS.2.DM.S",
+      "duration_hours": 0.33,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

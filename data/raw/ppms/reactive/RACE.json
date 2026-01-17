@@ -1,0 +1,13 @@
+{
+  "ride_id": "RACE",
+  "ride_name": "Raceway",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "RACE.5.S",
+      "qualification_code": "RACE.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Raceway"
+    }
+  ]
+}

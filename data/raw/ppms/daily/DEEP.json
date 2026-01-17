@@ -1,0 +1,17 @@
+{
+  "ride_id": "DEEP",
+  "ppms": [
+    {
+      "ppm_code": "DEEP.E.1D.R.02",
+      "qualification_code": "DEEP.2.DE.R.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "ELECTRICAL"
+    },
+    {
+      "ppm_code": "DEEP.M.1D.R.01",
+      "qualification_code": "DEEP.2.DM.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

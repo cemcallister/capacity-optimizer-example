@@ -1,0 +1,13 @@
+{
+  "ride_id": "VRGE",
+  "ride_name": "Vertigo",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "VRGE.5.S",
+      "qualification_code": "VRGE.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Vertigo"
+    }
+  ]
+}

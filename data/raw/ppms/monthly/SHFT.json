@@ -1,0 +1,50 @@
+{
+  "ride_id": "SHFT",
+  "ppms": [
+    {
+      "ppm_code": "SHFT.E.1M.OXY.01",
+      "qualification_code": "SHFT.4.ME.OXY.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "SHFT.E.1M.R.02",
+      "qualification_code": "SHFT.4.ME.R.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "SHFT.E.1M.T.03",
+      "qualification_code": "SHFT.4.ME.T.S",
+      "duration_hours": 0.2,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "SHFT.M.1M.R.05",
+      "qualification_code": "SHFT.4.MM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "SHFT.M.1M.T.06",
+      "qualification_code": "SHFT.4.MM.T.S",
+      "duration_hours": 0.8,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

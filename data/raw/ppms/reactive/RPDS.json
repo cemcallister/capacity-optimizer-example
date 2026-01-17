@@ -1,0 +1,13 @@
+{
+  "ride_id": "RPDS",
+  "ride_name": "River Rapids",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "RPDS.5.S",
+      "qualification_code": "RPDS.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for River Rapids"
+    }
+  ]
+}

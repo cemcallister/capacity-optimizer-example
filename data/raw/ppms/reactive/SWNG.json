@@ -1,0 +1,13 @@
+{
+  "ride_id": "SWNG",
+  "ride_name": "Swingship",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "SWNG.5.S",
+      "qualification_code": "SWNG.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Swingship"
+    }
+  ]
+}

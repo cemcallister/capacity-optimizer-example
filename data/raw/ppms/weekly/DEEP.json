@@ -1,0 +1,23 @@
+{
+  "ride_id": "DEEP",
+  "ppms": [
+    {
+      "ppm_code": "DEEP.M.1W.LAPB.01",
+      "qualification_code": "DEEP.3.WM.LBAR.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "DEEP.M.1W.R.02",
+      "qualification_code": "DEEP.3.WM.S",
+      "duration_hours": 1.0,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

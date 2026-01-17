@@ -1,0 +1,13 @@
+{
+  "ride_id": "CRSR",
+  "ride_name": "Corsair",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "CRSR.5.S",
+      "qualification_code": "CRSR.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Corsair"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "ride_id": "NOVA",
+  "ppms": [
+    {
+      "ppm_code": "NOVA.E.1W.GALP.01",
+      "qualification_code": "NOVA.3.WE.GALP.S",
+      "duration_hours": 0.3,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.E.3W.CRFT.02",
+      "qualification_code": "NOVA.3.WE.T.S",
+      "duration_hours": 1.2,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "3W",
+      "assigned_day": "null",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.E.8W.GALP.01",
+      "qualification_code": "NOVA.3.WE.GALP.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "8W",
+      "assigned_day": "null",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.M.1W.R.03",
+      "qualification_code": "NOVA.3.WM.R.S",
+      "duration_hours": 0.41,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Monday",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.M.1W.R.04",
+      "qualification_code": "NOVA.3.WM.R.S",
+      "duration_hours": 0.55,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Tuesday",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.M.1W.R.05",
+      "qualification_code": "NOVA.3.WM.R.S",
+      "duration_hours": 0.44,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Wednesday",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.M.1W.R.06",
+      "qualification_code": "NOVA.3.WM.R.S",
+      "duration_hours": 0.3,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Thursday",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.M.1W.R.07",
+      "qualification_code": "NOVA.3.WM.R.S",
+      "duration_hours": 0.3,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "Friday",
+      "time_window": "FLEXIBLE"
+    },
+    {
+      "ppm_code": "NOVA.M.3W.CRFT.01",
+      "qualification_code": "NOVA.3.WM.T.S",
+      "duration_hours": 2.72,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "FLEXIBLE"
+    }
+  ]
+}

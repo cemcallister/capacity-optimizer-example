@@ -1,0 +1,11 @@
+{
+  "ride_id": "BNCE",
+  "ppms": [
+    {
+      "ppm_code": "BNCE.M.1D.R.01",
+      "qualification_code": "BNCE.2.DM.S",
+      "duration_hours": 0.33,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

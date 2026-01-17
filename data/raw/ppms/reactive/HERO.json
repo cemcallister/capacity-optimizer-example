@@ -1,0 +1,13 @@
+{
+  "ride_id": "HERO",
+  "ride_name": "Hero HQ",
+  "team_responsible": 1,
+  "ppms": [
+    {
+      "ppm_code": "HERO.5.S",
+      "qualification_code": "HERO.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Hero HQ"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ride_id": "AQUA",
+  "ride_name": "Aquanaut",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "AQUA.5.S",
+      "qualification_code": "AQUA.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Aquanaut"
+    }
+  ]
+}

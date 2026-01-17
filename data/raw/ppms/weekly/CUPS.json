@@ -1,0 +1,14 @@
+{
+  "ride_id": "CUPS",
+  "ppms": [
+    {
+      "ppm_code": "CUPS.M.1W.R.01",
+      "qualification_code": "CUPS.3.WM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1W",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}

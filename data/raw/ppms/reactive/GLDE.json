@@ -1,0 +1,13 @@
+{
+  "ride_id": "GLDE",
+  "ride_name": "Skyglide",
+  "team_responsible": 2,
+  "ppms": [
+    {
+      "ppm_code": "GLDE.5.S",
+      "qualification_code": "GLDE.5.S",
+      "maintenance_type": "REACTIVE",
+      "description": "Reactive maintenance for Skyglide"
+    }
+  ]
+}

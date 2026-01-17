@@ -1,0 +1,35 @@
+{
+  "ride_id": "GLDE",
+  "ppms": [
+    {
+      "ppm_code": "GLDE.M.1D.CCLS.02",
+      "qualification_code": "GLDE.2.DM.S",
+      "duration_hours": 0.52,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "GLDE.M.1D.G.04",
+      "qualification_code": "GLDE.2.DM.S",
+      "duration_hours": 0.73,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "GLDE.M.1D.MDS.03",
+      "qualification_code": "GLDE.2.DM.S",
+      "duration_hours": 0.67,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "GLDE.M.1D.R.05",
+      "qualification_code": "GLDE.2.DM.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL"
+    },
+    {
+      "ppm_code": "GLDE.M.1D.TSTS.01",
+      "qualification_code": "GLDE.2.DM.S",
+      "duration_hours": 0.51,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

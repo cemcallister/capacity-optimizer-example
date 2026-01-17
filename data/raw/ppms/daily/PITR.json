@@ -1,0 +1,11 @@
+{
+  "ride_id": "PITR",
+  "ppms": [
+    {
+      "ppm_code": "PITR.M.1D.R.01",
+      "qualification_code": "PITR.2.DM.S",
+      "duration_hours": 0.55,
+      "maintenance_type": "MECHANICAL"
+    }
+  ]
+}

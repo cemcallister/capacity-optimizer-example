@@ -1,0 +1,41 @@
+{
+  "ride_id": "INFR",
+  "ppms": [
+    {
+      "ppm_code": "INFR.E.1M.KFOG.01",
+      "qualification_code": "INFR.4.ME.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "ELECTRICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1M.R.03",
+      "qualification_code": "INFR.4.MM.R.S",
+      "duration_hours": 0.5,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1M.STRC.04",
+      "qualification_code": "INFR.4.MM.STRC.S",
+      "duration_hours": 0.30000000000000004,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    },
+    {
+      "ppm_code": "INFR.M.1M.TMBR.05",
+      "qualification_code": "INFR.4.MM.TMBR.S",
+      "duration_hours": 0.6000000000000001,
+      "maintenance_type": "MECHANICAL",
+      "frequency": "1M",
+      "assigned_day": "null",
+      "time_window": "AM"
+    }
+  ]
+}
